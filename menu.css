@@ -1,0 +1,82 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #025c2f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 20%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c9fa16;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+
+.menu-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-section h1 {
+    color: #ff9900; 
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item img {
+    max-width: 50%;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+
+.menu-item h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.menu-item .price {
+    color: #ff9900;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
